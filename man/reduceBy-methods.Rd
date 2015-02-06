@@ -10,6 +10,9 @@
 \alias{reduceByRange,GRangesList,ANY-method}
 \alias{reduceByRange,GenomicFiles,missing-method}
 
+\alias{reduceRanges}
+\alias{reduceFiles}
+
 \title{Parallel computations across files or ranges}
 
 \description{

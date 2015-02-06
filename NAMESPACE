@@ -1,11 +1,10 @@
 import(methods)
 import(BiocGenerics)
+import(IRanges)
+import(GenomicRanges)
 import(Rsamtools)
 import(rtracklayer)
-import(GenomicRanges)
 import(BiocParallel)
-
-importFrom(IRanges, coverage)
 importFrom(GenomicAlignments, summarizeOverlaps, Union)
 importMethodsFrom(GenomicAlignments, summarizeOverlaps)
 
@@ -68,5 +67,5 @@ export(
     ## file registry:
     .fileTypeRegistry, registerFileType, findTypeRegistry, makeFileType,
 
-    reduceByYield
+    reduceFiles, reduceRanges, reduceByYield
 )
